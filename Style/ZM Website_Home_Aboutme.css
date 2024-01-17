@@ -1,0 +1,206 @@
+.Home-Middle-Section {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  background: #B3907A;
+  align-items: center;
+  justify-content: center;
+  min-width: 1500px;
+}
+
+.Home-Middle-Section-Left {
+  flex: 1;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  height: 600px;
+}
+
+.Home-Middle-Section-Left-Pic {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home-Middle-Section-Right {
+  flex: 1;
+  background-color: #B3907A;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Middle-Section-Right-Title {
+  flex: 1;
+  background-color: #B3907A;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-Middle-Section-Right-Text {
+  flex: 1;
+  background-color: #B3907A;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-Middle-Section-Right-Title-Text {
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+}
+
+.Home-Middle-Section-Right-Text-Content {
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+}
+
+/******** Accomplishment Section **********/
+
+.Home-Accomplishment-Section {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: lightgrey;
+  min-width: 1500px;
+}
+
+.Home-Accomplishment-Section-Title {
+  flex: 0.5;
+  background-color: #EBE6D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Accomplishment-Section-Title-Text {
+  font-size: 40px;
+  /*font-weight: 300;*/
+  color: #8E806A;
+  font-family: Ms Madi;
+}
+
+.Home-Accomplishment-Section-Info {
+  flex: 3;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Home-Accomplishment-Section-Info-Degree {
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Home-Accomplishment-Section-Info-Degree-Icon {
+  flex: 1;
+  background-color: lightcoral;
+  display: flex;
+  height: 225px;
+}
+
+.Home-Accomplishment-Section-Info-Degree-Icon-Img, .Home-Accomplishment-Section-Info-IEEE-Icon-Img,
+.Home-Accomplishment-Section-Info-Paper-Icon-Img 
+{
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home-Accomplishment-Section-Info-Degree-Text {
+  flex: 1;
+  background-color: #B3907A;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+.Home-Accomplishment-Section-Info-Degree-Text-Title, .Home-Accomplishment-Section-Info-IEEE-Text-Title,
+.Home-Accomplishment-Section-Info-Paper-Text-Title 
+{
+  flex: 1;
+  background-color: #D2B48C;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Home-Accomplishment-Section-Info-Degree-Text-Info, .Home-Accomplishment-Section-Info-IEEE-Text-Info,
+.Home-Accomplishment-Section-Info-Paper-Text-Info
+{
+  flex: 1;
+  background-color: #D2B48C;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Home-Accomplishment-Section-Info-IEEE {
+  flex: 1;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home-Accomplishment-Section-Info-IEEE-Icon {
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  height: 225px;
+}
+
+.Home-Accomplishment-Section-Info-IEEE-Text {
+  flex: 1;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Home-Accomplishment-Section-Info-Paper {
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Accomplishment-Section-Info-Paper-Icon {
+  flex: 1;
+  background-color: lightblue;
+  display: flex;
+  height: 225px;
+}
+
+.Home-Accomplishment-Section-Info-Paper-Text {
+  flex: 1;
+  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Accomplishment-Section-Ending {
+  flex: 0.5;
+  background-color: #EBE6D9;
+}
+

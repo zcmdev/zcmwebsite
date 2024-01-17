@@ -1,0 +1,112 @@
+.Home-Skills-Section {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: aquamarine;
+  min-width: 1500px;
+}
+
+.Home-Skills-Section-Title {
+  height: 75px;
+  background-color: rgb(179, 144, 122);
+  font-family: Ms Madi;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Skills-Section-Title-Text {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-Skills-Section-Info {
+  flex: 5;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Home-Skills-Section-Info-Business,
+.Home-Skills-Section-Info-Leadership,
+.Home-Skills-Section-Info-Technical
+{
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Skills-Section-Info-Business-Img,
+.Home-Skills-Section-Info-Leadership-Img,
+.Home-Skills-Section-Info-Technical-Img
+{
+  height: 150px;
+  background-color: lightpink;
+  display: flex;
+  position: relative;
+  min-width: 300px;
+  justify-content: center;
+}
+
+.Home-Skills-Section-Info-Business-Img .Home-Skills-Title,
+.Home-Skills-Section-Info-Technical-Img .Home-Skills-Title,
+.Home-Skills-Section-Info-Leadership-Img .Home-Skills-Title
+{
+  position: absolute;
+  background-color: #544C4A;
+  font-family: Roboto, Arial;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+  top: 50px;
+  opacity: 0.9;
+}
+
+.Home-Skills-Section-Info-Business-Img-Image,
+.Home-Skills-Section-Info-Leadership-Img-Image,
+.Home-Skills-Section-Info-Technical-Img-Image
+{
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home-Skills-Section-Info-Business-Info,
+.Home-Skills-Section-Info-Leadership-Info,
+.Home-Skills-Section-Info-Technical-Info
+{
+  flex: 1;
+  background-color: #D2B48C;
+  font-family: Roboto, Arial;
+  font-weight: 300;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  min-width: 300px;
+}
+
+.Home-Skills-Section-Info-Technical-Info {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 144, 122);
+}
+
+.Home-Skills-Section-Info-Technical {
+  flex: 1;
+  background-color: beige;
+}
+
+.Home-Skills-Section-Info-Leadership {
+  flex: 1;
+  background-color: lightgray;
+}

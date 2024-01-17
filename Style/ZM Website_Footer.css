@@ -1,0 +1,81 @@
+.Footer-Section {
+  display: flex;
+  flex-direction: column;
+  min-width: 1500px;
+}
+
+.Footer-Section-Title {
+  background-color: antiquewhite;
+  font-family: Ms Madi;
+  font-size: 25px;
+  color: #8E806A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.Footer-Section-Title-Text {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer-Section-Info {
+  height: 150px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+}
+
+.Footer-Section-Info-Leftspace, .Footer-Section-Info-Rightspace {
+  flex: 0.5;
+  background-color: antiquewhite;
+}
+
+.Footer-Section-Info-Linkedin, .Footer-Section-Info-Email, .Footer-Section-Info-Phone {
+  flex: 1;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Footer-Section-Info-Linkedin-Icon, .Footer-Section-Info-Email-Icon,
+.Footer-Section-Info-Phone-Icon
+ {
+  width: 70px;
+  height: 70px;
+  background-color: antiquewhite;
+}
+
+.Footer-Section-Info-Linkedin-Link, .Footer-Section-Info-Email-Text,
+.Footer-Section-Info-Phone-Text
+{
+  flex: 1;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  color: #8E806A;
+}
+
+.Footer-Section-Info-Linkedin-Link-Text {
+  color: #8E806A;
+}
+
+.Footer-Section-Info-Linkedin-Link-Text-Click:hover {
+  text-decoration: underline;
+}
+
+.Footer-Section-Info-Linkedin-Icon-Img, .Footer-Section-Info-Email-Icon-Img,
+.Footer-Section-Info-Phone-Icon-Img
+{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

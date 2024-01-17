@@ -1,0 +1,108 @@
+.Home-Utility-Section {
+  display: flex;
+  flex-direction: column;
+  height: 575px;
+  background-color: lightblue;
+  min-width: 1500px;
+}
+
+.Home-Utility-Section-Title {
+  height: 75px;
+  background-color: #EBE6D9;
+  font-family: Ms Madi, Arial;
+  font-size: 40px;
+  color: #8E806A;
+  min-width: 500px;
+}
+
+.Home-Utility-Section-Title-Text {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-Utility-Section-Details {
+  height: 500px;
+  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home-Utility-Section-Details-Img {
+  height: 300px;
+  background-color: #EBE6D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.Home-Utility-Section-Details-Img-Problem,
+.Home-Utility-Section-Details-Img-Technical,
+.Home-Utility-Section-Details-Img-Business,
+.Home-Utility-Section-Details-Img-Leadership
+{
+  flex: 1;
+  background-color: #EBE6D9;
+  display: flex;
+  height: 250px;
+}
+
+.Home-Utility-Section-Details-Img-Problem-Image,
+.Home-Utility-Section-Details-Img-Technical-Image,
+.Home-Utility-Section-Details-Img-Business-Image,
+.Home-Utility-Section-Details-Img-Leadership-Image
+{
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home-Utility-Section-Details-Text {
+  height: 200px;
+  background-color: #EBE6D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.Home-Utility-Section-Details-Text-Problem,
+.Home-Utility-Section-Details-Text-Technical,
+.Home-Utility-Section-Details-Text-Business,
+.Home-Utility-Section-Details-Text-Leadership
+{
+  flex: 1;
+  background-color: #EBE6D9;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.Home-Utility-Section-Details-Text-Problem-Text,
+.Home-Utility-Section-Details-Text-Technical-Text,
+.Home-Utility-Section-Details-Text-Business-Text,
+.Home-Utility-Section-Details-Text-Leadership-Text
+{
+  color: #8E806A;
+  font-family: Roboto, Arial;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.Home-Utility-Section-Details-Text-Problem-Text-Open,
+.Home-Utility-Section-Details-Text-Technical-Text-Open,
+.Home-Utility-Section-Details-Text-Business-Text-Open,
+.Home-Utility-Section-Details-Text-Leadership-Text-Open
+{
+  font-family: Ms Madi, Arial;
+  font-size: 35px;
+}
+
+.Home-Utility-Section-Bottomborder {
+  height: 75px;
+  background-color: #EBE6D9;
+}
