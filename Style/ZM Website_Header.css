@@ -58,7 +58,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: transparent;
 }
 
 .Header-Section-Buttons-WorkExperience-Button .Header-Button-Tooltip,
@@ -100,6 +99,7 @@
   color: #8E806A;
   font-size: 16px;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .Header-Section-Buttons-Home-Button:hover {
@@ -144,6 +144,7 @@
   justify-content: center;
   background-color: transparent;
   border: 1px solid #8E806A;
+  border-radius: 3px;
 }
 
 .Header-Section-LetsTalk-Button:hover {
