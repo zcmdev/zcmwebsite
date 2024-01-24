@@ -63,8 +63,7 @@
 
 .Header-Section-Buttons-WorkExperience-Button .Header-Button-Tooltip,
 .Header-Section-Buttons-Personalprojects-Button .Header-Button-Tooltip,
-.Header-Section-Buttons-Volunteer-Button .Header-Button-Tooltip,
-.Header-Section-LetsTalk-Button .Header-Button-Tooltip
+.Header-Section-Buttons-Volunteer-Button .Header-Button-Tooltip
 {
   position: absolute;
   background-color: #88807B;
@@ -85,8 +84,7 @@
 
 .Header-Section-Buttons-WorkExperience-Button:hover .Header-Button-Tooltip,
 .Header-Section-Buttons-Personalprojects-Button:hover .Header-Button-Tooltip,
-.Header-Section-Buttons-Volunteer-Button:hover .Header-Button-Tooltip,
-.Header-Section-LetsTalk-Button:hover .Header-Button-Tooltip
+.Header-Section-Buttons-Volunteer-Button:hover .Header-Button-Tooltip
 {
   opacity: 1;
 }
