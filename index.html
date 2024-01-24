@@ -56,11 +56,12 @@
         </div>
       </div>
       <div class="Header-Section-LetsTalk">
-        <button class="Header-Section-LetsTalk-Button">
+        <button class="Header-Section-LetsTalk-Button"
+          onclick="
+            openResume();
+          "
+          >
           Resume
-          <div class="Header-Button-Tooltip">
-            Coming soon! Under Development
-          </div>
         </button>
       </div>
     </header>
@@ -299,5 +300,10 @@
         </div>
       </div>
     </section>
+    <script>
+      function openResume() {
+        window.open('Resume/Ziyi (Carrie) Ma - Resume.pdf');
+      }
+    </script>
   </body>
 </html>
